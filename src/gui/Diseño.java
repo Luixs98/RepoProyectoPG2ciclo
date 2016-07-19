@@ -448,28 +448,6 @@ if (vehiculo==0 || vehiculo==1){
 EstacionamientoTO objEstacionamientoTO=new EstacionamientoTO();
 objEstacionamientoTO.setNombusu(jtxtNombres.getText());
 objEstacionamientoTO.setplacasusu(jtxtPlacas.getText());
-
-/*Implementar el boton para agregar mas usuario
-if (jtxtNombres.getText().equals("")||jtxtPlacas.getText().equals("")){
-JOptionPane.showMessageDialog(null, "Acceso denegado:\n"
-                + "Por favor Llene todo lo correspondiente", "Acceso denegado",
-                JOptionPane.ERROR_MESSAGE);
-}else{
-objEstacionamientoTO.setNombusu(jtxtNombres.getText());
-objEstacionamientoTO.setplacasusu(jtxtPlacas.getText());
-objEstacionamientoDAO.insert(objEstacionamientoTO);
-cargaRegistros();
-muestraRegistros();
-habilitarControladores(false);
-getRootPane().setDefaultButton(jbtnNuevo);   
-JOptionPane.showMessageDialog(rootPane,"Registro Guardado");
-Alumno.setSelected(false);
-Maestro.setSelected(false);
-Moto1.setSelected(false);
-Auto1.setSelected(false);
-}
-*/
-
 if (jtxtNombres.getText().equals("")||jtxtPlacas.getText().equals("")){
 JOptionPane.showMessageDialog(null, "Acceso denegado:\n"
                 + "Por favor Llene todo lo correspondiente", "Acceso denegado",
