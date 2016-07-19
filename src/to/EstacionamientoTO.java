@@ -1,5 +1,5 @@
 /**
- * Segundo paso.
+ * Tercer paso.
  * @author Luis Encarnación, Carlos Vargas.
  */
 package to;

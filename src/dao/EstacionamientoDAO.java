@@ -1,5 +1,5 @@
 /**
- * Tercer paso.
+ * Sexto paso.
  * @author Luis Encarnación, Carlos Vargas.
  */
 package dao;
