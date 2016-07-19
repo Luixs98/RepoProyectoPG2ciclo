@@ -17,18 +17,7 @@ public class EstacionamientoDAO {
     ResultSet rs = ps.executeQuery();
     return rs;
     }
-    /*Con esta clase podremos crear nuevos estacionamientos.
-    public void insert(EstacionamientoTO objEstacionamientoTO) throws Exception{
-    Connection cn= MySQL.getInstance().getConnection();
-    String sql="call sp_insert_estacionamiento(?,?)";
-    CallableStatement cs;
-    cs = cn.prepareCall(sql);
-    cs.setString(1, objEstacionamientoTO.getNombusu());
-    cs.setString(2, objEstacionamientoTO.getplacasusu());
-    cs.execute();
-        
-    }
-*/
+    
 public void ocupar(EstacionamientoTO ObjEstacionamientoTO) throws Exception{
 Connection cn = MySQL.getInstance().getConnection();
 String sql="call sp_ocupar_estacionamiento(?,?,?)";

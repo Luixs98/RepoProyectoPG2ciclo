@@ -440,7 +440,7 @@ EstacionamientoDAO objEstacionamientoDAO= new EstacionamientoDAO();
         getRootPane().setDefaultButton(jbtnGrabar);
         sw=false;
     }//GEN-LAST:event_jbtnEditarActionPerformed
-
+   
     private void jbtnGrabarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnGrabarActionPerformed
 if (tipo==1 || tipo==0 || tipo==2) {
 if (vehiculo==0 || vehiculo==1){    
